@@ -1,0 +1,79 @@
+:root {
+    --colour-1: #262923;
+    --colour-2: #EFE9E4;
+    --colour-3: #6988E1;
+    --colour-4: #88ab21;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family:'Roboto', 'Roboto Mono';    
+    background-color: var(--colour-2);
+    color: var(--colour-1);
+}
+
+.hr {
+    height: 7px;
+    background-color: var(--colour-4);    
+    max-width: 100%;
+}
+
+.email-link {
+    font-family:'Roboto', 'Roboto Mono';
+    color: var(--colour-1);
+    
+    font-size: larger;
+    
+}
+.email-link:hover {
+    color: var(--colour-3);
+}
+
+h1, h2 {
+    color: var(--colour-3);
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul  {
+    list-style-image: url('bullet.webp');
+    margin: 0; 
+    padding: 0;
+    padding-left: 40px;
+}
+li {    
+    margin-bottom: 10px; 
+    padding-left: 10px; 
+    background-repeat: no-repeat; 
+    background-size: 10px; 
+    background-position: left center; 
+  }
+
+.portfolio {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    max-width: 90%;   
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.form {
+    max-width: 70%;
+    margin: 0 auto; 
+}
+
+.form-control {
+    width: 100%; 
+}
+
+footer {
+    color: colour1;
+}
